@@ -35,6 +35,8 @@
 #include "msm_watchdog.h"
 #include "timer.h"
 
+extern unsigned get_cable_status(void);
+
 #ifdef CONFIG_KEXEC_HARDBOOT
 #include <asm/kexec.h>
 #endif
